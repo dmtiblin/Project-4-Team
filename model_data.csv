@@ -1,3 +1,9 @@
 ﻿model,model_designs,testing_parameters,model_performance,description_and_analysis
 Initial test,linear regression,Zillow and Fed Fund Data without Census data,0.999969638,"This proved our model would work, but relied on location information we wanted to remove so the model would be more adaptable"
 Census and Zillow,linear regression,"Census, Zillow, and Fed Fund Data with Metro names removed",0.999563596,"Replaced location data with census data, so the model is able to work if given data for any given region. The model performance was still good and not requiring metro location makes the model more valuable."
+Census and Zillow,linear regression,"cleaned the data further to remove columns that might be duplicates of each other (i.e. poverty count & poverty rate, racial demographics count and rate)",0.998842704,
+Census and Zillow,linear regression,scaled data ,0.99905588,
+Census and Zillow,linear regression,added additional colums unoccupied housing rate and median family income for each location  ,0.999242961,
+Census and Zillow,linear regression,dropped ACS Net Migration column (the limiting factor in # of data points joined) in order to increase # of data points model is learning on ,0.999920611,
+,,,,
+,,,,
