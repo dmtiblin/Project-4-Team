@@ -1,6 +1,8 @@
 # Housing Market Prediction Model
 The effects of the COVID 19 pandemic have had a major effect on the housing market and home values/listing prices. Using zillow to determine average home values per month for multiple neighborhood, and combining that with Federal Reserve Interest Rates and data from the US Census, we train a machine learning model to predict future home values.
 
+The final presentation can be viewed in the included powerpoint deck. 
+
 Team Members: Bonnie Bailey, Diane Tiblin, Joseph March
 
 ## Data Sources:
